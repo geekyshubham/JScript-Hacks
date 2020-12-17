@@ -1,0 +1,4 @@
+var i=1;while (i < 40) {
+  jQuery("input:radio[name=selectedoption"+i+"]:visible")[0].checked=true;;
+  i++;
+}
